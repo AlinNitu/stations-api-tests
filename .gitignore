@@ -1,0 +1,8 @@
+.idea
+poetry.lock
+venv
+requests.log
+**/__pycache__
+archive
+output.json
+pytest_html_report.html
