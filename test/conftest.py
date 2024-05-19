@@ -12,7 +12,7 @@ class Context:
         self.stations_client = StationsAPIClient()
 
         # best to store version as part of base url or even separate, easier to update if needed
-        self.base_url = 'https://api-energy-k8s.test.virtaglobal.com/v1/'
+        self.base_url = 'https://'
 
         self.responses = []
         self.shared_data = {}
